@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgb(6, 6, 83);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    border: 3px solid rgb(135, 83, 83);
+}
+
+body{
+    background-color: rgb(6, 6, 83);;
+}
+
+.logo{
+    display: flex;  
+    align-items: center;
+    gap: 30px;
+
+}
+.logo img{
+    width: 120px;  
+    height: 80px;
+
+}
+
+.logo h1{
+    color: white;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    font-style: none;
+    gap: 20px;
+    
+    
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+.nav-menu a:hover{
+    color: rgb(205, 148, 148);
+}
+
+.business-overview{
+    width: 100%;
+    display: flex;
+   
+}
+.business-overview-child{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+
+}
+
+.business-overview-child p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.img-left{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.img-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.img-left img{
+    width: 400px;
+}
+
+.img-right img{
+    width: 400px;
+}
+
+.product{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.product-child{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.product-child p{
+    margin: 20px 20px;
+    color: white;
+    
+}
+
+
+.product-child ul{
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+}
+
+    .symbol{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color:  rgb(205, 148, 148);
+}
+
+.symbol .icon{
+    color: rgb(181, 98, 98);;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(181, 98, 98);
+}
+
+.vision{
+    width: 70%;
+    margin: auto;
+    align-items: flex-start;
+    margin-top: 50px;
+   
+}
+
+.vision p{
+    margin: 20px 20px;
+    color: white;
+
+    
+}
+
+.vision h4{
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.mission{
+    width: 70%;
+    margin: auto;
+    align-items: flex-start;
+    margin-top: 20px;
+   
+}
+
+.mission ul{
+    margin: 20px 20px;
+    color: white;
+    list-style: none;
+    
+}
+
+h3{
+    color: white; 
+}
+
+.mode-of-operation{
+    width: 70%;
+    margin: auto;
+    align-items: flex-start;
+    margin-top: 20px;
+   
+}
+
+.mode-of-operation ul{
+    margin: 20px 20px;
+    color: white;
+    list-style: none;
+    
+}
+
+.mode-of-operation h3{
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.pricing-promotion{
+    width: 70%;
+    margin: auto;
+    align-items: flex-start;
+    margin-top: 20px;
+       
+}
+
+.pricing-promotion p{
+    margin: 20px 20px;
+    color: white;
+    list-style: none;
+    
+}
+
+.pricing-promotion h3{
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.pricing-child{
+    width: 70%;
+    margin: auto;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.contact{
+    width: 100%;
+    margin-top: 60px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(17, 30, 109);
+}
+
+.contact-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left-title h1{
+    color: white;
+    font-weight: 400;
+    
+}
+.contact-left-title{
+    margin-top: 30px;   
+}
+.contact-left-title hr{
+    width: 80px;
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(231, 131, 94);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+button img{
+    width: 10px;
+}
+
+.contact-input{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 400;
+    color: red;
+}
+
+
+.contact-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact-right img{
+    width: 400pxpx;
+    
+}
+
+.social-icons{
+    height: 150px;
+    background-color: black;
+     padding-left: 20px;
+     margin-right: 20px;
+     display: flex;
+     padding-left: 40px;
+     padding-right: 40px;
+     justify-content: center;
+}
+
+.social-icons-address{
+    width: 70%;
+    align-items: center;
+    
+}
+
+.social-icons h4{
+    color: white;
+    margin-top: 50px;
+    
+}
+
+.social-icons p{
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.social-icons a{
+color: white;
+font-size: 30px;
+
+}
+
+.social-icons-social{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-icons-social a:hover{
+    color: rgb(128, 71, 71);
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
